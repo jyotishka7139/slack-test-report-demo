@@ -1,0 +1,22 @@
+name: CI-test
+on:
+  pull_request:
+  push:
+    branches:
+      - development
+jobs:
+  build-test:
+    name: Build & Test
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2 # checkout the repo
+      - run: npm i # install packages
+      - run: npm run test # run tests (configured to use jest-junit reporter)
+
+      - name: Test Report
+        uses: dorny/test-reporter@v1
+        if: success() || failure() # run this step even if previous step failed
+        with:
+          name: JEST Tests # Name of the check run which will be created
+          path: reports/test-report.xml # Path to test results (inside artifact .zip)
+          reporter: jest-junit # Format of test results
