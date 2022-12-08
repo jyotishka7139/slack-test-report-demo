@@ -13,7 +13,7 @@ describe("test one", () => {
     expect(linkElement).toBeInTheDocument();
   });
   describe("test nested", () => {
-    test("renders learn react link", () => {
+    test("renders learn react", () => {
       render(<App />);
       const imgElement = screen.getByAltText("logo");
       expect(imgElement).toBeInTheDocument();
