@@ -21,7 +21,7 @@ jobs:
           path: reports/test-report.xml # Path to test results (inside artifact .zip)
           reporter: jest-junit # Format of test results
       - name: slack-test-report
-        uses: jyotishka7139/slack-test-report@1.0.5
+        uses: jyotishka7139/slack-test-report@1.0.6
         with:
           who-to-greet: "Tester"
           testOutputPath: "slack-test-report-demo/slack-test-report-demo/reports"
