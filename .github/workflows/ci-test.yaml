@@ -24,4 +24,4 @@ jobs:
         uses: jyotishka7139/slack-test-report@1.0.0
         with:
           who-to-greet: "Tester"
-          testOutputPath: "ui-one-view/ui-one-view/reports"
+          testOutputPath: "slack-test-report-demo/slack-test-report-demo/reports"
