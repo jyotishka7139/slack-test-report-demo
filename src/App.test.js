@@ -2,26 +2,26 @@ import { render, screen } from "@testing-library/react";
 import App from "./App";
 
 describe("test one", () => {
-  test("renders learn react link", () => {
+  test("renders declaration", () => {
     render(<App />);
-    const linkElement = screen.getByText(/learn react/i);
-    expect(linkElement).toBeInTheDocument();
+    const jsonElement = screen.getByTestId("json");
+    expect(jsonElement).toHaveTextContent("declaration");
   });
-  test("renders learn react link", () => {
+  test("renders version", () => {
     render(<App />);
-    const linkElement = screen.getByText("src/App.js");
-    expect(linkElement).toBeInTheDocument();
+    const jsonElement = screen.getByTestId("json");
+    expect(jsonElement).toHaveTextContent("version");
   });
-  describe("test nested", () => {
-    test("renders learn react", () => {
+  describe("test nested format", () => {
+    test("renders declaration", () => {
       render(<App />);
-      const imgElement = screen.getByAltText("logo");
-      expect(imgElement).toBeInTheDocument();
+      const jsonElement = screen.getByTestId("format");
+      expect(jsonElement).toHaveTextContent("jest tests");
     });
-    test("renders learn react link", () => {
+    test("renders declaration", () => {
       render(<App />);
-      const linkElement = screen.getByText("src/App.js");
-      expect(linkElement).toBeInTheDocument();
+      const jsonElement = screen.getByTestId("format");
+      expect(jsonElement).toHaveTextContent(":white_check_mark:");
     });
   });
 });

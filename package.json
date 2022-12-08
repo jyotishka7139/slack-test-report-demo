@@ -13,7 +13,7 @@
     "web-vitals": "^2.1.4"
   },
   "jest-junit": {
-    "suiteName": "jest tests",
+    "suiteName": "Parent Dashboard Test Suite",
     "outputDirectory": "reports",
     "outputName": "test-report.xml",
     "ancestorSeparator": " › ",

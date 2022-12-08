@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuites name="jest tests" tests="4" failures="0" errors="0" time="0.686">
-  <testsuite name="src/App.test.js" errors="0" failures="0" skipped="0" timestamp="2022-12-08T18:59:05" time="0.338" tests="4">
-    <testcase classname="test one" name="renders learn react link" time="0.017">
+<testsuites name="Parent Dashboard Test Suite" tests="4" failures="0" errors="0" time="0.443">
+  <testsuite name="src/App.test.js" errors="0" failures="0" skipped="0" timestamp="2022-12-08T22:31:26" time="0.397" tests="4">
+    <testcase classname="test one" name="renders declaration" time="0.013">
     </testcase>
-    <testcase classname="test one" name="renders learn react link" time="0.003">
+    <testcase classname="test one" name="renders version" time="0.006">
     </testcase>
-    <testcase classname="test one › test nested" name="renders learn react link" time="0.002">
+    <testcase classname="test one › test nested format" name="renders declaration" time="0.002">
     </testcase>
-    <testcase classname="test one › test nested" name="renders learn react link" time="0.002">
+    <testcase classname="test one › test nested format" name="renders declaration" time="0.001">
     </testcase>
   </testsuite>
 </testsuites>
