@@ -2,19 +2,14 @@
 
 COMPONENTS TEST CASES
 
- **TEST SUITE** | **PASSED** | **TIME**
+> **TEST SUITE** | **PASSED** | **TIME**
 -------------- | ---------- | --------
- src/__tests__/components/AppHeader/AppHeader.test.js | 5:green_circle: | 0.782
- *AppHeader and it’s child elements, states and click actions have passed all tests!*
+> src/__tests__/components/AppHeader/AppHeader.test.js<br>AppHeader and it’s child elements, states and click actions have passed all tests! | 5:green_circle: | 0.782
+> src/__tests__/components/Button/Button.test.js<br>Button and it’s child elements, states and click actions have passed all tests! | 2:green_circle: | 0.712
+> src/__tests__/components/CardWrapper/CardWrapper.test.js<br>CardWrapper and it’s child elements, states and click actions have passed all tests! | 2:green_circle: | 0.315
+> src/__tests__/components/DonutChartWrapper/DonutChartWrapper.test.js<br>DonutChartWrapper and it’s child elements, states and click actions have passed all tests! | 1:green_circle: | 0.443
+> src/__tests__/components/DropDownWrapper/DropDownWrapper.test.js<br>DropDownWrapper and it’s child elements, states and click actions have passed all tests! | 6:green_circle: | 0.579
 
- src/__tests__/components/Button/Button.test.js | 2:green_circle: | 0.712
- *Button and it’s child elements, states and click actions have passed all tests!*
-
- src/__tests__/components/CardWrapper/CardWrapper.test.js | 2:green_circle: | 0.315
- *CardWrapper and it’s child elements, states and click actions have passed all tests!*
-
- src/__tests__/components/DonutChartWrapper/DonutChartWrapper.test.js | 1:green_circle: | 0.443
- *DonutChartWrapper and it’s child elements, states and click actions have passed all tests!*
 
 
 
