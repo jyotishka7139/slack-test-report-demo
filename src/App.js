@@ -125,18 +125,18 @@ const content = {
 function parseData(content) {
   let testReport = "";
   const testcases = content.elements[0].elements;
-  console.log("content: ", content);
-  console.log("content attributes: ", content.elements[0].attributes);
-  console.log("content elements FAIL: ", content.elements[0].elements);
+  // console.log("content: ", content);
+  // console.log("content attributes: ", content.elements[0].attributes);
+  // console.log("content elements FAIL: ", content.elements[0].elements);
 
-  console.log("calculating test results, deciding if abbreviate output");
+  // console.log("calculating test results, deciding if abbreviate output");
   if (
     parseInt(content.elements[0].attributes.failures) == 0 &&
     parseInt(content.elements[0].attributes.errors) == 0
   ) {
-    console.log(
-      "building ALL PASS report for " + content.elements[0].attributes.name
-    );
+    // console.log(
+    //   "building ALL PASS report for " + content.elements[0].attributes.name
+    // );
     let reportContent =
       ":white_check_mark: " +
       content.elements[0].attributes.name +
@@ -156,10 +156,10 @@ function parseData(content) {
     });
     testReport += reportContent + "\r\n";
   } else {
-    console.log(
-      "building FAIL report for failed test: " +
-        content.elements[0].attributes.name
-    );
+    // console.log(
+    //   "building FAIL report for failed test: " +
+    //     content.elements[0].attributes.name
+    // );
     let reportContent =
       ":x: " +
       content.elements[0].attributes.name +
