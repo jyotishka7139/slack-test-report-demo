@@ -13,15 +13,20 @@ describe("test one", () => {
     expect(jsonElement).toHaveTextContent("version");
   });
   describe("test nested format", () => {
+    test("render fails", () => {
+      render(<App />);
+      const jsonElement = screen.getByTestId("format");
+      expect(jsonElement).toHaveTextContent(":white_check_mart");
+    });
     test("renders declaration", () => {
       render(<App />);
       const jsonElement = screen.getByTestId("format");
       expect(jsonElement).toHaveTextContent("jest tests");
     });
-    test("renders declaration", () => {
-      render(<App />);
-      const jsonElement = screen.getByTestId("format");
-      expect(jsonElement).toHaveTextContent(":white_check_mark:");
-    });
+  });
+  test("renders declaration", () => {
+    render(<App />);
+    const jsonElement = screen.getByTestId("format");
+    expect(jsonElement).toHaveTextContent(":white_check_mark:");
   });
 });
