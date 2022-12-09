@@ -1,5 +1,23 @@
 # Getting Started with Create React App
 
+COMPONENTS TEST CASES
+
+> **TEST SUITE** | **PASSED** | **TIME**
+-------------- | ---------- | --------
+> src/__tests__/components/AppHeader/AppHeader.test.js | 5:green_circle: | 0.782
+> *AppHeader and it’s child elements, states and click actions have passed all tests!*
+
+> src/__tests__/components/Button/Button.test.js | 2:green_circle: | 0.712
+> *Button and it’s child elements, states and click actions have passed all tests!*
+
+> src/__tests__/components/CardWrapper/CardWrapper.test.js | 2:green_circle: | 0.315
+> *CardWrapper and it’s child elements, states and click actions have passed all tests!*
+
+> src/__tests__/components/DonutChartWrapper/DonutChartWrapper.test.js | 1:green_circle: | 0.443
+> *DonutChartWrapper and it’s child elements, states and click actions have passed all tests!*
+
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
