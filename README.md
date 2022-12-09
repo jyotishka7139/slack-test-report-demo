@@ -2,13 +2,36 @@
 
 COMPONENTS TEST CASES
 
-> **TEST SUITE** | **PASSED** | **TIME**
+**TEST SUITE** | **PASSED** | **TIME**
 -------------- | ---------- | --------
-> src/__tests__/components/AppHeader/AppHeader.test.js<br>AppHeader and it’s child elements, states and click actions have passed all tests! | 5:green_circle: | 0.782
-> src/__tests__/components/Button/Button.test.js<br>Button and it’s child elements, states and click actions have passed all tests! | 2:green_circle: | 0.712
-> src/__tests__/components/CardWrapper/CardWrapper.test.js<br>CardWrapper and it’s child elements, states and click actions have passed all tests! | 2:green_circle: | 0.315
-> src/__tests__/components/DonutChartWrapper/DonutChartWrapper.test.js<br>DonutChartWrapper and it’s child elements, states and click actions have passed all tests! | 1:green_circle: | 0.443
-> src/__tests__/components/DropDownWrapper/DropDownWrapper.test.js<br>DropDownWrapper and it’s child elements, states and click actions have passed all tests! | 6:green_circle: | 0.579
+src/__tests__/components/AppHeader/AppHeader.test.js<br>AppHeader and it’s child elements, states and click actions have passed all tests! | 5:green_circle: | 0.782
+src/__tests__/components/Button/Button.test.js<br>Button and it’s child elements, states and click actions have passed all tests! | 2:green_circle: | 0.712
+src/__tests__/components/CardWrapper/CardWrapper.test.js<br>CardWrapper and it’s child elements, states and click actions have passed all tests! | 2:green_circle: | 0.315
+src/__tests__/components/DonutChartWrapper/DonutChartWrapper.test.js<br>DonutChartWrapper and it’s child elements, states and click actions have passed all tests! | 1:green_circle: | 0.443
+src/__tests__/components/DropDownWrapper/DropDownWrapper.test.js<br>DropDownWrapper and it’s child elements, states and click actions have passed all tests! | 6:green_circle: | 0.579
+src/__tests__/components/FallbackMessage/FallbackMessage.test.js<br>FallbackMessage and it’s child elements, states and click actions have passed all tests! | 3:green_circle: | 0.347
+src/__tests__/components/Layout/Layout.test.js<br>Layout and it’s child elements, states and click actions have passed all tests! | 1:green_circle: | 0.291
+src/__tests__/components/Loader/Loader.test.js<br>Loader and it’s child elements, states and click actions have passed all tests! | 3:green_circle: | 0.748
+src/__tests__/components/NavigationBar/NavigationBar.test.js<br>NavigationBar and it’s child elements, states and click actions have passed all tests! | 17:green_circle: | 0.765
+src/__tests__/components/NoticeBoardSection/NoticeBoardSection.test.js<br>NoticeBoardSection and it’s child elements, states and click actions have passed all tests! | 2:green_circle: | 0.808
+src/__tests__/components/NoticeBoardSection/NoticeCard.test.js<br>NoticeCard and it’s child elements, states and click actions have passed all tests! | 21:green_circle: | 3.664
+src/__tests__/components/ProgressBarWrapper/ProgressBarWrapper.test.js<br>ProgressBarWrapper and it’s child elements, states and click actions have passed all tests! | 3:green_circle: | 0.325
+src/__tests__/components/StepperComponent/StepperComponent.test.js<br>StepperComponent and it’s child elements, states and click actions have passed all tests! | 11:green_circle: | 0.682
+src/__tests__/components/SwappableWidget/SwappableWidget.test.js<br>SwappableWidget and it’s child elements, states and click actions have passed all tests! | 2:green_circle: | 0.308
+src/__tests__/components/TooltipWrapper/TooltipWrapper.test.js<br>TooltipWrapper and it’s child elements, states and click actions have passed all tests! | 1:green_circle: | 0.294
+
+VIEWS TEST CASES
+
+**TEST SUITE** | **PASSED** | **TIME**
+-------------- | ---------- | --------
+src/__tests__/views/parent-view/AccountManagement/AccountManagement.test.js<br>AccountManagement and it’s child elements, states and click actions have passed all tests! | 5:green_circle: | 0.599
+src/__tests__/views/parent-view/AccountManagement/ChildDetail/ChildDetail.test.js<br>ChildDetail and it’s child elements, states and click actions have passed all tests! | 6:green_circle: | 0.332
+src/__tests__/views/parent-view/Home/Home.test.js<br>Home and it’s child elements, states and click actions have passed all tests! | 5:green_circle: | 1.214
+src/__tests__/views/parent-view/Home/MonthPerformance/MonthPerformance.test.js<br>MonthPerformance and it’s child elements, states and click actions have passed all tests! | 17:green_circle: | 0.94
+src/__tests__/views/parent-view/KnowYourProgram/KnowYourProgram.test.js<br>KnowYourProgram and it’s child elements, states and click actions have passed all tests! | 9:green_circle: | 1.224
+src/__tests__/views/parent-view/Noticeboard/NoticeboardHalf.test.js<br>NoticeboardHalf and it’s child elements, states and click actions have passed all tests! | 4:green_circle: | 0.809
+src/__tests__/views/parent-view/Noticeboard/NoticeboardParent.test.js<br>NoticeboardParent and it’s child elements, states and click actions have passed all tests! | 4:green_circle: | 0.848
+src/__tests__/views/parent-view/ParentDashboard.test.js<br>ParentDashboard and it’s child elements, states and click actions have passed all tests! | 14:green_circle: | 3.443
 
 
 
