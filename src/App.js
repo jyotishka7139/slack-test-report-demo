@@ -8,11 +8,11 @@ const content = {
       type: "element",
       name: "testsuites",
       attributes: {
-        name: "jest tests",
-        tests: "4",
-        failures: "0",
+        name: "Parent Dashboard Test Suite",
+        tests: "5",
+        failures: "1",
         errors: "0",
-        time: "1.661",
+        time: "2.414",
       },
       elements: [
         {
@@ -21,11 +21,11 @@ const content = {
           attributes: {
             name: "src/App.test.js",
             errors: "0",
-            failures: "0",
+            failures: "1",
             skipped: "0",
-            timestamp: "2022-12-08T20:20:14",
-            time: "1.21",
-            tests: "4",
+            timestamp: "2022-12-09T07:54:18",
+            time: "1.774",
+            tests: "5",
           },
           elements: [
             {
@@ -33,8 +33,8 @@ const content = {
               name: "testcase",
               attributes: {
                 classname: "test one",
-                name: "renders learn react link",
-                time: "0.034",
+                name: "renders declaration",
+                time: "0.038",
               },
               elements: [],
             },
@@ -43,8 +43,8 @@ const content = {
               name: "testcase",
               attributes: {
                 classname: "test one",
-                name: "renders learn rct",
-                time: "0.007",
+                name: "renders version",
+                time: "0.008",
               },
               elements: [],
             },
@@ -52,8 +52,55 @@ const content = {
               type: "element",
               name: "testcase",
               attributes: {
-                classname: "test one › test nested",
-                name: "renders learn react",
+                classname: "test one › test nested format",
+                name: "render fails",
+                time: "0.007",
+              },
+              elements: [
+                {
+                  type: "element",
+                  name: "failure",
+                  elements: [
+                    {
+                      type: "text",
+                      text:
+                        "Error: expect(element).toHaveTextContent() \n" +
+                        " \n " +
+                        "Expected element to have text content:\n" +
+                        "  :white_check_mart\n" +
+                        "Received:\n" +
+                        "  jest tests ALL TESTS PASSED: :white_check_mark: src/App.test.js test one :white_check_mark: renders learn react link :white_check_mark: renders learn rct test one › test nested :white_check_mark: renders learn react :white_check_mark: renders learnlink\n" +
+                        "    at Object.<anonymous> (/home/runner/work/slack-test-report-demo/slack-test-report-demo/src/App.test.js:19:27)\n" +
+                        "    at Promise.then.completed (/home/runner/work/slack-test-report-demo/slack-test-report-demo/node_modules/jest-circus/build/utils.js:391:28)\n" +
+                        "    at new Promise (<anonymous>)\n" +
+                        "    at callAsyncCircusFn (/home/runner/work/slack-test-report-demo/slack-test-report-demo/node_modules/jest-circus/build/utils.js:316:10)\n" +
+                        "    at _callCircusTest (/home/runner/work/slack-test-report-demo/slack-test-report-demo/node_modules/jest-circus/build/run.js:218:40)\n" +
+                        "    at _runTest (/home/runner/work/slack-test-report-demo/slack-test-report-demo/node_modules/jest-circus/build/run.js:155:3)\n" +
+                        "    at _runTestsForDescribeBlock (/home/runner/work/slack-test-report-demo/slack-test-report-demo/node_modules/jest-circus/build/run.js:66:9)\n" +
+                        "    at _runTestsForDescribeBlock (/home/runner/work/slack-test-report-demo/slack-test-report-demo/node_modules/jest-circus/build/run.js:60:9)\n" +
+                        "    at _runTestsForDescribeBlock (/home/runner/work/slack-test-report-demo/slack-test-report-demo/node_modules/jest-circus/build/run.js:60:9)\n" +
+                        "    at run (/home/runner/work/slack-test-report-demo/slack-test-report-demo/node_modules/jest-circus/build/run.js:25:3)\n" +
+                        "    at runAndTransformResultsToJestFormat (/home/runner/work/slack-test-report-demo/slack-test-report-demo/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:170:21)\n" +
+                        "    at jestAdapter (/home/runner/work/slack-test-report-demo/slack-test-report-demo/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.js:82:19)\n" +
+                        "    at runTestInternal (/home/runner/work/slack-test-report-demo/slack-test-report-demo/node_modules/jest-runner/build/runTest.js:389:16)\n" +
+                        "    at runTest (/home/runner/work/slack-test-report-demo/slack-test-report-demo/node_modules/jest-runner/build/runTest.js:475:34)\n" +
+                        "    at TestRunner.runTests (/home/runner/work/slack-test-report-demo/slack-test-report-demo/node_modules/jest-runner/build/index.js:101:12)\n" +
+                        "    at TestScheduler.scheduleTests (/home/runner/work/slack-test-report-demo/slack-test-report-demo/node_modules/@jest/core/build/TestScheduler.js:333:13)\n" +
+                        "    at runJest (/home/runner/work/slack-test-report-demo/slack-test-report-demo/node_modules/@jest/core/build/runJest.js:404:19)\n" +
+                        "    at _run10000 (/home/runner/work/slack-test-report-demo/slack-test-report-demo/node_modules/@jest/core/build/cli/index.js:320:7)\n" +
+                        "    at runCLI (/home/runner/work/slack-test-report-demo/slack-test-report-demo/node_modules/@jest/core/build/cli/index.js:173:3)\n" +
+                        "    at Object.run (/home/runner/work/slack-test-report-demo/slack-test-report-demo/node_modules/jest-cli/build/cli/index.js:155:37)",
+                    },
+                  ],
+                },
+              ],
+            },
+            {
+              type: "element",
+              name: "testcase",
+              attributes: {
+                classname: "test one › test nested format",
+                name: "renders declaration",
                 time: "0.005",
               },
               elements: [],
@@ -62,8 +109,8 @@ const content = {
               type: "element",
               name: "testcase",
               attributes: {
-                classname: "test one › test nested",
-                name: "renders learnlink",
+                classname: "test one",
+                name: "renders declaration",
                 time: "0.005",
               },
               elements: [],
@@ -77,6 +124,7 @@ const content = {
 
 function parseData(content) {
   let testReport = "";
+  const testcases = content.elements[0].elements;
   console.log("content: ", content);
   console.log("content attributes: ", content.elements[0].attributes);
   console.log("content elements FAIL: ", content.elements[0].elements);
@@ -87,12 +135,14 @@ function parseData(content) {
     parseInt(content.elements[0].attributes.errors) == 0
   ) {
     console.log(
-      "building abbreviated string for " + content.elements[0].attributes.name
+      "building ALL PASS report for " + content.elements[0].attributes.name
     );
     let reportContent =
-      "" + content.elements[0].attributes.name + " ALL TESTS PASSED:";
+      ":white_check_mark: " +
+      content.elements[0].attributes.name +
+      " ALL TESTS PASSED";
     reportContent += "\r\n\r\n";
-    content.elements[0].elements.forEach((testSuite) => {
+    testcases.forEach((testSuite) => {
       reportContent +=
         ":white_check_mark: " + testSuite.attributes.name + "\r\n\r\n";
       let testDescription = null;
@@ -104,50 +154,67 @@ function parseData(content) {
         reportContent += " :white_check_mark: " + test.attributes.name + "\r\n";
       });
     });
-    reportContent += "\r\n";
-    testReport += reportContent;
+    testReport += reportContent + "\r\n";
   } else {
     console.log(
-      "building long string for failed test: " +
+      "building FAIL report for failed test: " +
         content.elements[0].attributes.name
     );
-    let OUTPUTSTR = "";
-    OUTPUTSTR += content.elements[0].attributes.name;
-    OUTPUTSTR += " HAS ERRORS:";
-    OUTPUTSTR += "\r\n";
+    let reportContent =
+      ":x: " +
+      content.elements[0].attributes.name +
+      ": " +
+      content.elements[0].attributes.failures +
+      ` ${
+        content.elements[0].attributes.failures == 1 ? "TEST" : "TESTS"
+      } FAILED`;
+    reportContent += "\r\n\r\n";
 
     //begin test case details
-    const testcases = content.elements[0].elements;
-    testcases.forEach(function (item) {
-      if (item.name == "testcase") {
-        var testCaseNameResult = item.attributes.name;
-        testCaseNameResult += getTestCaseResult(item);
-        if (testCaseNameResult.includes("skipped")) {
-          testCaseNameResult = ":pineapple: " + testCaseNameResult;
-        } else if (testCaseNameResult.includes("failure")) {
-          var errorMessage = item.elements[0].attributes.message;
-          var shortMessage = errorMessage.split(/\r?\n/)[0];
-          testCaseNameResult =
-            ":apple: " + testCaseNameResult + " " + shortMessage;
-        } else {
-          testCaseNameResult = ":green_apple: " + testCaseNameResult;
+    testcases.forEach((testSuite) => {
+      reportContent +=
+        `${testSuite.attributes.failures ? ":x: " : ":white_check_mark: "}` +
+        testSuite.attributes.name +
+        "\r\n\r\n";
+      let testDescription = null;
+      testSuite.elements.forEach((test) => {
+        if (testDescription != test.attributes.classname) {
+          testDescription = test.attributes.classname;
+          reportContent += test.attributes.classname + "\r\n";
         }
-        testCaseNameResult = "    " + testCaseNameResult;
-        testCaseNameResult += "\r\n";
-        OUTPUTSTR += testCaseNameResult;
-      }
+        //pass
+        if (!test.elements.length)
+          reportContent +=
+            " :white_check_mark: " + test.attributes.name + "\r\n";
+        //fail
+        else {
+          reportContent +=
+            " :x: " +
+            test.attributes.name +
+            "\r\n\r\n" +
+            "-------------------" +
+            "\r\n\r\n";
+          reportContent += "ERROR: " + "\r\n";
+          const errorMessage = test.elements[0].elements[0].text;
+          reportContent +=
+            errorMessage.split("\n")[0] +
+            "\r\n" +
+            errorMessage.split("\n")[1] +
+            "\r\n" +
+            errorMessage.split("\n")[2] +
+            "\r\n" +
+            errorMessage.split("\n")[3] +
+            "\r\n" +
+            errorMessage.split("\n")[4] +
+            "\r\n" +
+            errorMessage.split("\n")[5];
+          reportContent += "\r\n\r\n" + "-------------------" + "\r\n\r\n";
+        }
+      });
     });
-    testReport += OUTPUTSTR + "\r\n";
+    testReport += reportContent + "\r\n";
   }
   return testReport;
-}
-function getTestCaseResult(inXML) {
-  var outStr = "";
-  inXML.elements.forEach(function (result) {
-    outStr += " ";
-    outStr += result.name;
-  });
-  return outStr;
 }
 
 const data = parseData(content);

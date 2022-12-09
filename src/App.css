@@ -5,9 +5,12 @@
 .json {
   background-color: grey;
   color: white;
+  width: 50%;
+  overflow-x: scroll;
 }
 .format {
   padding: 20px;
   background-color: black;
   color: grey;
+  width: 50%;
 }
