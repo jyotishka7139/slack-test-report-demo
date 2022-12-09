@@ -26,7 +26,7 @@ describe("test one", () => {
   });
   test("renders declaration", () => {
     render(<App />);
-    const jsonElement = screen.getByTestId("format");
+    const jsonElement = screen.getByTestId("formant");
     expect(jsonElement).toHaveTextContent(":white_check_mark:");
   });
 });
