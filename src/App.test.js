@@ -15,7 +15,7 @@ describe("test one", () => {
   describe("test nested format", () => {
     test("render fails", () => {
       render(<App />);
-      const jsonElement = screen.getByTestId("format");
+      const jsonElement = screen.getByTestId("formant");
       expect(jsonElement).toHaveTextContent(":white_check_mart");
     });
     test("renders declaration", () => {
